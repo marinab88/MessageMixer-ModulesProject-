@@ -61,13 +61,6 @@ const reverseCipher = (sentence) => {
   }
   return words.join(" ");
 };
-/*
-module.exports = {
-  caesarCipher, 
-  symbolCipher, 
-  reverseCipher,
-};
-*/
 
 module.exports.caesarCipher = caesarCipher;
 module.exports.symbolCipher = symbolCipher;

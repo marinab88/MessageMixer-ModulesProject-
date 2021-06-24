@@ -2,9 +2,9 @@
 
 const encryptors = require ('./encriptors');
 
-const caesarCipher = encryptors.caesarCipher('', );
-const symbolCipher = encryptors.symbolCipher('');
-const reverseCipher = encryptors.reverseCipher('');
+const caesarCipher = encryptors.caesarCipher;
+const symbolCipher = encryptors.symbolCipher;
+const reverseCipher = encryptors.reverseCipher;
 
 
 // User Input / Output Logic
